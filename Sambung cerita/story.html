@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baca Cerita - Sambung Cerita</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header>
+    <h1 id="storyTitle">📖 Judul Cerita</h1>
+    <p id="storyAuthor">Dilanjutkan oleh <strong>0 orang</strong></p>
+    <a href="index.html" class="back-link">← Kembali ke Daftar</a>
+  </header>
+
+  <main>
+    <section class="full-story" id="storyContent">
+      <!-- Isi cerita akan muncul di sini -->
+    </section>
+
+    <section class="continue-form">
+      <h3>Tambahkan Paragrafmu</h3>
+      <form id="continueForm">
+        <textarea id="newPart" placeholder="Tulis lanjutan cerita di sini..." required></textarea>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sambung Cerita</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="particles-config.js"></script>
+</body>
+</html>

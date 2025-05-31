@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sambung Cerita</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header>
+    <h1><i class="fas fa-book-open"></i> Sambung Cerita</h1>
+    <p>Cerita tak berujung dari pengguna di seluruh dunia.</p>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+    <div class="actions">
+      <a href="new-story.html" class="btn">Mulai Cerita Baru</a>
+      <a href="#stories" class="btn btn-outline">Lihat Cerita</a> 
+    </div>
+  </header>
+
+  <main id="stories">
+    <h2>🔥 Cerita Terbaru</h2>
+    <div id="storyList">
+      <!-- Cerita akan muncul di sini -->
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Sambung Cerita | Dibuat dengan ❤️ oleh Tim Anda</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="particles-config.js"></script>
+</body>
+</html>
